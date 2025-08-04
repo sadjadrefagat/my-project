@@ -1,8 +1,8 @@
-n = int(input("Enter a natural number: "))
+a = int(input("Enter a natural number: "))
 
-for i in range(2, n):
-    if n % i == 0:
-        print(f"{n} is not a prime number.")
+for i in range(2, a):
+    if a % i == 0:
+        print(f"{a} is not a prime number.")
         break
 else:
-    print(f"{n} is prime number.")
+    print(f"{a} is prime number.")
